@@ -15,7 +15,7 @@ Application::Application()
     {
         sf::Int64 time = clock.getElapsedTime().asMicroseconds();
         clock.restart();
-        time /= 800;
+        time /= 750;
 
         processEvents();
 
